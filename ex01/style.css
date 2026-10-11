@@ -1,0 +1,21 @@
+/*fixed so it is pinned*/
+.nav-container{
+    position: fixed;
+    top: 0;
+}
+/*make it a refrence to other elements*/
+.card-container{
+    position: relative;
+}
+/*absolute positioning relative to the card container*/
+.notification-badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*fixed position according to the screen*/
+.back-to-top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
